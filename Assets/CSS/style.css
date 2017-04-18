@@ -89,3 +89,29 @@ footer>p{
 }
 
 /*Text Styling*/
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-style: medium;
+    font-size: 50px;
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+}
+
+h3, h4, h5 {
+    font-size: 20px;
+    }
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+
+
+/*Margin Fixes*/
+
+
