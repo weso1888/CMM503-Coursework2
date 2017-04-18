@@ -11,7 +11,9 @@ body{
 footer{
     background-color: slategray;
 }
-
+#about {
+    background-color: grey;
+}
 
 /* Image Sizing CSS*/
 
@@ -23,35 +25,47 @@ footer{
     width: 33%;
     height: 220px;
     float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #gprj2 {
     width: 33%;
     height: 220px;
     float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #gprj3 {
     width: 33%;
     height: 220px;
     float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 /*Header CSS*/
 .header{
-    height: auto;
+    height: 200px;
     width: 100%;
     padding-left: 10px;
     padding-top: 10px;
     margin-top: 30px;
+    margin-bottom: 0px;
 }
 
 #Page title {
-
+    padding-left: 30px;
+    padding-top: 10px;
 }
 
 #searchbox {
     float: right;
+    padding-bottom: 20px;
 }
 
 
@@ -73,6 +87,12 @@ footer>p{
     margin-right: auto;
     color: white;
 }
+
+/*About CSS*/
+#about {
+    height: 200px;
+}
+
 
 /*Text Styling*/
 
@@ -128,5 +148,4 @@ p {
 
 
 /*Margin Fixes*/
-
 
