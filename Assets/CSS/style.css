@@ -96,7 +96,7 @@ footer>p{
 
 h1 {
     font-family: 'Oswald', sans-serif;
-    font-style: medium;
+    font-style: oblique;
     font-size: 50px;
     padding-left: 30px;
     padding-top: 10px;
@@ -116,7 +116,7 @@ p {
     font-weight: 300;
 }
 
-h2, h5, h2.p, h2.p {
+h2, h5, p {
     padding-left: 10px;
 }
 
@@ -124,6 +124,8 @@ h2, h5, h2.p, h2.p {
 #buttons{
     display:table;
     width:100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .button1{
     display:table-cell;
@@ -153,56 +155,3 @@ h2, h5, h2.p, h2.p {
 
 /*Margin Fixes*/
 
-
-
-/* Full-width input fields */
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
-
-/* Set a style for all buttons */
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-    padding: 14px 20px;
-    background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn,.signupbtn {
-    float: left;
-    width: 50%;
-}
-
-/* Add padding to container elements */
-.container {
-    padding: 16px;
-}
-
-/* Clear floats */
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-    .cancelbtn, .signupbtn {
-        width: 100%;
-    }
-}
